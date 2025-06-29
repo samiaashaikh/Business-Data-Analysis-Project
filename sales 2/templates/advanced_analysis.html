@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}Advanced Analysis{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center" data-aos="fade-down">🧠 AI-Powered Advanced Analysis</h2>
+
+    <!-- 📈 Predicted Future Sales -->
+    <div class="mt-4" data-aos="fade-up">
+        <h4>📊 Predicted Future Sales (Next 12 Months)</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Predicted Sales (₹)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for month, sales in future_sales %}
+                <tr>
+                    <td>{{ month }}</td>
+                    <td>₹{{ "%.2f"|format(sales) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 📦 Stock Optimization -->
+    <div class="mt-4" data-aos="fade-left">
+        <h4>🛒 Recommended Stock Levels</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Recommended Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in stock_recommendations %}
+                <tr>
+                    <td>{{ row["Product Name"] }}</td>
+                    <td>{{ "%.2f"|format(row["Recommended Stock"]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 👥 Customer Segmentation -->
+    <div class="mt-4" data-aos="fade-right">
+        <h4>👥 Customer Segmentation</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Sales (₹)</th>
+                    <th>Segment</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in customer_segments %}
+                <tr>
+                    <td>{{ row["Customer ID"] }}</td>
+                    <td>₹{{ "%.2f"|format(row["Total Sales"]) }}</td>
+                    <td>{{ row["Segment"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

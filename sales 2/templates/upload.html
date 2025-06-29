@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+
+    <!-- Online CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+        }
+
+        .btn-upload {
+            background: #ff7eb3;
+            border: none;
+            padding: 12px 18px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out, background 0.3s;
+            border-radius: 8px;
+        }
+
+        .btn-upload:hover {
+            transform: scale(1.1);
+            background: #ff4e8a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" data-aos="zoom-in">
+        <h2 class="mb-3">Upload Your File</h2>
+
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" class="form-control mb-3" required>
+            <button type="submit" class="btn btn-upload">Upload</button>
+        </form>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();  // Initialize animations
+    </script>
+</body>
+</html>

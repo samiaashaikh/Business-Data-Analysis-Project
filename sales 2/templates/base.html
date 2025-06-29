@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dashboard{% endblock %}</title>
+
+    <!-- Online CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        body {
+            background: linear-gradient(135deg, #1f1b1be8, #2e2c2c);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 260px;
+            height: 100%;
+            background: rgba(71, 182, 215, 0.1);
+            backdrop-filter: blur(10px);
+            padding-top: 20px;
+            transition: all 0.3s ease-in-out;
+            z-index: 1000;
+        }
+
+        .sidebar .nav-link {
+            color: white;
+            font-size: 18px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+            border-radius: 8px;
+        }
+
+        .sidebar .nav-link i {
+            margin-right: 10px;
+        }
+
+        .sidebar .nav-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .main-content {
+            margin-left: 280px;
+            padding: 30px;
+        }
+
+        .top-navbar {
+            background: rgba(71,182, 215, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: none;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .logout-btn {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ff4e8a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .logout-btn:hover {
+            background: #e63964;
+            transform: scale(1.05);
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 992px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            .main-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="text-center">
+            <h2>Dashboard</h2>
+        </div>
+        <ul class="nav flex-column mt-4">
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-home"></i> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('sales_analysis') }}"><i class="fas fa-chart-line"></i> Sales Analysis</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('stock_inventory') }}"><i class="fas fa-box"></i> Stock & Inventory</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('profitability_analysis') }}"><i class="fas fa-coins"></i> Profitability</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('customer_patterns') }}"><i class="fas fa-users"></i> Customer Patterns</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('supplier_orders') }}"><i class="fas fa-truck"></i> Supplier & Orders</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('advanced_analysis') }}"><i class="fas fa-brain"></i> Advance Analysis</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('upload_file') }}"><i class="fas fa-brain"></i> Upload Another File</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('download_report') }}">
+                    <i class="fas fa-download"></i> Download Report
+                </a>
+            </li>
+        </ul>
+    
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="top-navbar">
+            <h4>Welcome to Your Dashboard</h4>
+        </div>
+
+        <div class="container mt-4">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

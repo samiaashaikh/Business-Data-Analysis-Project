@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Sales Analysis{% endblock %}
+
+{% block extra_css %}
+<style>
+    .filter-container {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .btn-filter {
+        background: #ff7eb3;
+        border: none;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn-filter:hover {
+        background: #ff4e8a;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <h2 class="text-center">📊 Sales Analysis</h2>
+
+    <!-- Filter Form -->
+    <div class="filter-container">
+        <form method="POST" class="row">
+            <div class="col-md-3">
+                <label>From Date:</label>
+                <input type="date" name="start_date" class="form-control">
+            </div>
+            <div class="col-md-3">
+                <label>To Date:</label>
+                <input type="date" name="end_date" class="form-control">
+            </div>
+            <div class="col-md-2">
+                <label>Category:</label>
+                <select name="category" class="form-control">
+                    <option value="All">All</option>
+                    {% for cat in categories %}
+                    <option value="{{ cat }}">{{ cat }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label>Location:</label>
+                <select name="location" class="form-control">
+                    <option value="All">All</option>
+                    {% for loc in locations %}
+                    <option value="{{ loc }}">{{ loc }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label>Payment Mode:</label>
+                <select name="payment_method" class="form-control">
+                    <option value="All">All</option>
+                    {% for pay in payment_methods %}
+                    <option value="{{ pay }}">{{ pay }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-12 text-center mt-3">
+                <button type="submit" class="btn btn-filter">Apply Filters</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Charts -->
+    <div class="mt-4">{{ sales_trend_html | safe }}</div>
+    <div class="mt-4">{{ top_products_html | safe }}</div>
+    <div class="mt-4">{{ slow_products_html | safe }}</div>
+    <div class="mt-4">{{ category_sales_html | safe }}</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{% endblock %}

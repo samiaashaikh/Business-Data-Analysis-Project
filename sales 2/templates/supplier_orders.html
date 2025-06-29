@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}Supplier & Order Analysis{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center" data-aos="fade-down">📦 Supplier & Order Analysis</h2>
+
+    <!-- 🔹 Best & Worst Suppliers -->
+    <div class="mt-4" data-aos="fade-up">
+        <h4>🏆 Best & Worst Suppliers (By Total Sales)</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Supplier</th>
+                    <th>Total Sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in supplier_performance %}
+                <tr>
+                    <td>{{ row["Supplier"] }}</td>
+                    <td>₹{{ "%.2f"|format(row["Total Sales"]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 🔹 Supplier Delivery Performance -->
+    <div class="mt-4" data-aos="fade-left">
+        <h4>🚛 Supplier Delivery Performance</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Supplier</th>
+                    <th>Late Deliveries</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in supplier_delays %}
+                <tr>
+                    <td>{{ row["Supplier"] }}</td>
+                    <td>{{ row["Late Deliveries"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 🔹 Optimal Order Quantity -->
+    <div class="mt-4" data-aos="fade-right">
+        <h4>📊 Recommended Order Quantities</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Recommended Order Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in optimal_orders %}
+                <tr>
+                    <td>{{ row["Product Name"] }}</td>
+                    <td>{{ "%.2f"|format(row["Recommended Order Quantity"]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

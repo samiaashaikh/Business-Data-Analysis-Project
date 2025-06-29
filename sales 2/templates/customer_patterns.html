@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}Customer Purchase Patterns{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center" data-aos="fade-down">🛍️ Customer Purchase Patterns</h2>
+
+    <!-- 🔹 Repeat Purchase Analysis -->
+    <div class="mt-4" data-aos="fade-up">
+        <h4>🔄 Frequently Purchased Products</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Unique Customers</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in repeat_purchases %}
+                <tr>
+                    <td>{{ row["Product Name"] }}</td>
+                    <td>{{ row["Unique Customers"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 🔹 Bundle Recommendations -->
+    <div class="mt-4" data-aos="fade-left">
+        <h4>📦 Frequently Bought Together</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Product Pair</th>
+                    <th>Times Bought Together</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in bundle_recommendations %}
+                <tr>
+                    <td>{{ row[0][0] }} & {{ row[0][1] }}</td>
+                    <td>{{ row[1] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 🔹 Seasonal Demand Analysis -->
+    <div class="mt-4" data-aos="fade-right">
+        <h4>📅 Seasonal Demand Trends</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Total Sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in seasonal_demand %}
+                <tr>
+                    <td>{{ row["Month"] }}</td>
+                    <td>{{ row["Total Sales"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

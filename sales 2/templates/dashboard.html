@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block extra_css %}
+<style>
+    .dashboard-container {
+        margin-top: 50px;
+    }
+
+    .dashboard-card {
+        background: rgba(71, 182, 215, 0.1);
+        backdrop-filter: blur(10px);
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.3s ease-in-out;
+        border-radius: 10px;
+    }
+
+    .dashboard-card:hover {
+        transform: scale(1.05);
+    }
+
+    .dashboard-card h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .dashboard-card p {
+        font-size: 16px;
+    }
+
+    .icon {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container dashboard-container">
+    <div class="row">
+        <div class="col-md-4" data-aos="fade-up">
+            <a href="{{ url_for('sales_analysis') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-bar-chart-line-fill"></i>
+                    <h3>Sales Analysis</h3>
+                    <p>Track your sales trends.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4" data-aos="fade-up">
+            <a href="{{ url_for('stock_inventory') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-boxes"></i>
+                    <h3>Stock & Inventory</h3>
+                    <p>Monitor your stock levels.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4" data-aos="fade-up">
+            <a href="{{ url_for('profitability_analysis') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-graph-up"></i>
+                    <h3>Profitability</h3>
+                    <p>Analyze profit margins.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mt-4" data-aos="fade-up">
+            <a href="{{ url_for('customer_patterns') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-people"></i>
+                    <h3>Customer Patterns</h3>
+                    <p>Understand customer behavior.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mt-4" data-aos="fade-up">
+            <a href="{{ url_for('supplier_orders') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-truck"></i>
+                    <h3>Supplier & Orders</h3>
+                    <p>Manage suppliers and orders.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mt-4" data-aos="fade-up">
+            <a href="{{ url_for('advanced_analysis') }}" class="text-decoration-none">
+                <div class="card dashboard-card">
+                    <i class="icon bi bi-file-earmark-bar-graph"></i>
+                    <h3>Advance Analysis</h3>
+                    <p>Gain Insights with Advanced Analysis.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"></script>
+<script>
+    AOS.init();
+</script>
+{% endblock %}

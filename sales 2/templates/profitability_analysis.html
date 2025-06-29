@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}Profitability Analysis{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center" data-aos="fade-down">📈 Profitability Analysis</h2>
+
+    <!-- Filters with Dropdowns -->
+    <form method="POST" class="row g-3 mt-3" data-aos="fade-right">
+        <div class="col-md-3">
+            <label>From Date:</label>
+            <input type="date" class="form-control" name="start_date">
+        </div>
+        <div class="col-md-3">
+            <label>To Date:</label>
+            <input type="date" class="form-control" name="end_date">
+        </div>
+        <div class="col-md-3">
+            <label>Category:</label>
+            <select class="form-control" name="category">
+                <option value="All">All Categories</option>
+                {% for cat in categories %}
+                <option value="{{ cat }}">{{ cat }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Store Location:</label>
+            <select class="form-control" name="location">
+                <option value="All">All Locations</option>
+                {% for loc in locations %}
+                <option value="{{ loc }}">{{ loc }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Payment Mode:</label>
+            <select class="form-control" name="payment_mode">
+                <option value="All">All Payment Modes</option>
+                {% for mode in payment_modes %}
+                <option value="{{ mode }}">{{ mode }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+        </div>
+    </form>
+
+    <!-- Profit per Product -->
+    <div class="mt-4" data-aos="fade-up">
+        <h4>💰 Profit per Product</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in profit_per_product %}
+                <tr>
+                    <td>{{ row["Product Name"] }}</td>
+                    <td>₹{{ "%.2f"|format(row["Profit"]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Category Wise Profit -->
+    <div class="mt-4" data-aos="fade-left">
+        <h4>📊 Category-Wise Profit</h4>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in category_profit %}
+                <tr>
+                    <td>{{ row["Category"] }}</td>
+                    <td>₹{{ "%.2f"|format(row["Profit"]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

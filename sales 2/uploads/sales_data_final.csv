@@ -1,0 +1,501 @@
+Date,Time,Product Name,Category,Customer ID,Customer Name,Quantity Sold,Unit Price,Total Sales,Units Added to Stock,Stock,Payment Method,Store Location,Discount Applied
+27-01-2025,10:12,Headphones,Electronics,5754,Customer_5754,4,100,400,0,54,Cash,Houston,58.21
+08-01-2025,16:26,Running Shoes,Footwear,7744,Customer_7744,5,60,300,0,67,Wallet,Chicago,45.71
+25-02-2025,17:11,Headphones,Electronics,3550,Customer_3550,1,100,100,0,53,UPI,New York,14.81
+07-03-2025,12:31,Jeans,Clothing,7137,Customer_7137,4,40,160,0,24,Wallet,New York,8.93
+17-03-2025,13:01,Smartphone,Electronics,5674,Customer_5674,5,500,2500,0,85,Debit Card,Chicago,247.27
+17-01-2025,16:47,Smartphone,Electronics,1413,Customer_1413,3,500,1500,0,82,UPI,Miami,231.73
+11-01-2025,18:40,Refrigerator,Appliances,1546,Customer_1546,3,900,2700,0,38,Credit Card,Miami,247.41
+06-03-2025,17:44,T-shirt,Clothing,3233,Customer_3233,1,20,20,0,57,Debit Card,New York,1.29
+10-01-2025,21:28,Smartphone,Electronics,7579,Customer_7579,2,500,1000,0,80,Debit Card,Los Angeles,157.42
+28-02-2025,15:34,Headphones,Electronics,3084,Customer_3084,2,100,200,0,51,Credit Card,Miami,22
+23-02-2025,10:30,Laptop,Electronics,4787,Customer_4787,3,750,2250,0,47,Cash,Los Angeles,443.22
+12-03-2025,16:38,Jeans,Clothing,2006,Customer_2006,3,40,120,0,21,Cash,Chicago,14.97
+14-03-2025,11:35,Soda,Beverage,5134,Customer_5134,3,2,6,0,24,UPI,New York,0.17
+14-01-2025,15:47,T-shirt,Clothing,7792,Customer_7792,2,20,40,0,55,UPI,Los Angeles,1.71
+19-01-2025,15:30,Running Shoes,Footwear,1293,Customer_1293,5,60,300,0,62,Debit Card,Miami,45.67
+29-01-2025,11:00,Laptop,Electronics,9082,Customer_9082,5,750,3750,0,42,UPI,Los Angeles,168.13
+05-03-2025,16:38,Microwave,Appliances,4953,Customer_4953,5,150,750,0,46,UPI,Miami,85.03
+03-01-2025,16:06,Jeans,Clothing,5585,Customer_5585,3,40,120,0,18,Credit Card,Chicago,19.17
+22-02-2025,20:05,Soda,Beverage,7576,Customer_7576,1,2,2,0,23,UPI,New York,0.3
+30-01-2025,13:48,Chocolate,Food,9678,Customer_9678,1,5,5,0,54,UPI,Miami,0.54
+05-02-2025,11:29,Jeans,Clothing,4282,Customer_4282,1,40,40,0,17,UPI,Los Angeles,1.28
+14-01-2025,19:29,T-shirt,Clothing,7572,Customer_7572,1,20,20,0,54,Credit Card,Chicago,1.19
+11-01-2025,20:56,T-shirt,Clothing,9317,Customer_9317,4,20,80,0,50,Cash,Los Angeles,7.34
+03-03-2025,10:20,Soda,Beverage,2155,Customer_2155,2,2,4,0,21,UPI,Houston,0.18
+06-03-2025,21:23,Microwave,Appliances,2345,Customer_2345,3,150,450,0,43,Debit Card,Chicago,0.63
+03-02-2025,15:57,Microwave,Appliances,6948,Customer_6948,5,150,750,0,38,Cash,Chicago,15.72
+21-01-2025,19:07,Headphones,Electronics,3278,Customer_3278,4,100,400,0,47,Cash,Los Angeles,32.44
+14-03-2025,12:32,Refrigerator,Appliances,3960,Customer_3960,1,900,900,0,37,Debit Card,Los Angeles,44.18
+06-02-2025,20:32,Soda,Beverage,5909,Customer_5909,3,2,6,0,18,UPI,Houston,0.99
+05-03-2025,17:59,Jeans,Clothing,8585,Customer_8585,1,40,40,0,16,Cash,New York,4.32
+12-03-2025,18:23,Jeans,Clothing,3098,Customer_3098,3,40,120,0,13,Credit Card,Miami,8.1
+16-02-2025,16:52,Jeans,Clothing,8122,Customer_8122,4,40,160,0,9,UPI,Houston,23.93
+30-01-2025,19:33,Soda,Beverage,9625,Customer_9625,5,2,10,0,13,Wallet,Chicago,0.06
+17-03-2025,21:35,Headphones,Electronics,5054,Customer_5054,1,100,100,0,46,Cash,Los Angeles,9.27
+10-03-2025,19:16,Smartphone,Electronics,1934,Customer_1934,4,500,2000,0,76,Credit Card,Miami,10.27
+19-01-2025,19:37,Laptop,Electronics,5064,Customer_5064,3,750,2250,0,39,UPI,New York,377.31
+13-02-2025,13:43,Jeans,Clothing,4695,Customer_4695,5,40,200,44,48,Debit Card,Houston,21.93
+24-01-2025,21:26,Chocolate,Food,4783,Customer_4783,2,5,10,0,52,Credit Card,Los Angeles,1.13
+14-03-2025,16:15,Jeans,Clothing,6877,Customer_6877,1,40,40,0,47,Cash,Los Angeles,1.16
+20-01-2025,17:33,Chocolate,Food,9729,Customer_9729,3,5,15,0,49,UPI,Los Angeles,0.11
+12-01-2025,11:50,Chocolate,Food,9353,Customer_9353,3,5,15,0,46,Cash,Houston,0.75
+26-02-2025,13:33,Running Shoes,Footwear,9196,Customer_9196,2,60,120,0,60,Credit Card,Houston,22.22
+03-02-2025,16:51,Chocolate,Food,1501,Customer_1501,3,5,15,0,43,Wallet,New York,0.41
+01-01-2025,13:43,Soda,Beverage,3923,Customer_3923,5,2,10,0,8,Wallet,Miami,0.58
+05-01-2025,12:55,Headphones,Electronics,5810,Customer_5810,2,100,200,0,44,UPI,Chicago,38.4
+11-03-2025,20:28,Soda,Beverage,5317,Customer_5317,2,2,4,0,6,Cash,Houston,0.73
+10-01-2025,11:47,Smartphone,Electronics,2956,Customer_2956,3,500,1500,0,73,Cash,New York,77.95
+09-01-2025,20:34,Soda,Beverage,8677,Customer_8677,2,2,4,46,50,Credit Card,Houston,0.37
+12-03-2025,17:00,Running Shoes,Footwear,5889,Customer_5889,4,60,240,0,56,UPI,Miami,17.87
+20-01-2025,18:12,Running Shoes,Footwear,1014,Customer_1014,5,60,300,0,51,Wallet,Los Angeles,31.69
+31-01-2025,11:41,Refrigerator,Appliances,4528,Customer_4528,5,900,4500,0,32,Credit Card,New York,153.4
+24-01-2025,11:10,Refrigerator,Appliances,3749,Customer_3749,3,900,2700,0,29,Wallet,Los Angeles,256.98
+12-03-2025,21:00,Laptop,Electronics,4819,Customer_4819,4,750,3000,0,35,Wallet,Houston,156.52
+01-01-2025,17:14,Running Shoes,Footwear,1299,Customer_1299,1,60,60,0,50,Debit Card,Los Angeles,6.5
+12-03-2025,18:42,Running Shoes,Footwear,2174,Customer_2174,5,60,300,0,45,UPI,Los Angeles,43.29
+17-01-2025,20:15,Chocolate,Food,9057,Customer_9057,2,5,10,0,41,Credit Card,Houston,1.54
+18-01-2025,13:43,Soda,Beverage,6818,Customer_6818,4,2,8,0,46,Debit Card,Houston,0.32
+07-01-2025,10:01,Microwave,Appliances,7770,Customer_7770,1,150,150,0,37,Credit Card,New York,13.02
+03-01-2025,12:43,Jeans,Clothing,4392,Customer_4392,4,40,160,0,43,UPI,Houston,21.29
+22-01-2025,10:28,Laptop,Electronics,1098,Customer_1098,3,750,2250,0,32,Debit Card,New York,350.96
+20-02-2025,16:24,Laptop,Electronics,5075,Customer_5075,5,750,3750,0,27,Cash,Miami,502.2
+24-03-2025,19:07,Microwave,Appliances,8290,Customer_8290,4,150,600,0,33,Wallet,Los Angeles,66.33
+15-03-2025,15:27,Running Shoes,Footwear,9484,Customer_9484,3,60,180,0,42,Debit Card,Houston,31.36
+11-01-2025,14:47,Headphones,Electronics,1007,Customer_1007,1,100,100,0,43,Credit Card,Houston,9.61
+11-01-2025,15:22,Soda,Beverage,6654,Customer_6654,5,2,10,0,41,Wallet,Houston,0.24
+01-03-2025,17:49,T-shirt,Clothing,5045,Customer_5045,3,20,60,0,47,Credit Card,New York,2.06
+12-02-2025,15:31,Laptop,Electronics,8356,Customer_8356,1,750,750,0,26,Debit Card,Los Angeles,95.61
+12-02-2025,14:56,Refrigerator,Appliances,9105,Customer_9105,4,900,3600,0,25,Credit Card,Houston,24.02
+27-02-2025,17:48,Laptop,Electronics,4857,Customer_4857,4,750,3000,0,22,Cash,Houston,71.88
+24-03-2025,14:51,T-shirt,Clothing,7999,Customer_7999,1,20,20,0,46,UPI,Miami,2.76
+27-01-2025,19:14,Microwave,Appliances,7971,Customer_7971,2,150,300,0,31,Debit Card,New York,55.57
+23-02-2025,21:03,Headphones,Electronics,1988,Customer_1988,3,100,300,0,40,Credit Card,Miami,40.92
+25-02-2025,11:55,Laptop,Electronics,8000,Customer_8000,2,750,1500,0,20,Wallet,Chicago,98.64
+08-03-2025,11:12,Headphones,Electronics,9754,Customer_9754,4,100,400,0,36,Cash,New York,47.87
+04-01-2025,16:48,T-shirt,Clothing,8615,Customer_8615,5,20,100,0,41,Debit Card,New York,11.92
+22-02-2025,20:52,Microwave,Appliances,6757,Customer_6757,4,150,600,0,27,Cash,Los Angeles,5.88
+14-02-2025,12:52,Chocolate,Food,6952,Customer_6952,2,5,10,0,39,Wallet,New York,1.44
+07-03-2025,11:42,Microwave,Appliances,1160,Customer_1160,4,150,600,0,23,Credit Card,Chicago,114.9
+01-02-2025,10:16,Refrigerator,Appliances,1229,Customer_1229,2,900,1800,0,23,UPI,Miami,254.33
+05-03-2025,19:10,Refrigerator,Appliances,3830,Customer_3830,3,900,2700,0,20,Cash,Houston,266.26
+07-03-2025,10:36,Smartphone,Electronics,6298,Customer_6298,5,500,2500,0,68,UPI,Chicago,194.79
+22-01-2025,16:54,Microwave,Appliances,4040,Customer_4040,4,150,600,0,19,UPI,New York,44.46
+22-02-2025,15:26,T-shirt,Clothing,8534,Customer_8534,2,20,40,0,39,Debit Card,New York,3.34
+02-03-2025,11:21,Running Shoes,Footwear,4430,Customer_4430,4,60,240,0,38,Wallet,Miami,41.99
+09-03-2025,20:37,Chocolate,Food,2252,Customer_2252,1,5,5,0,38,UPI,Los Angeles,0.61
+04-03-2025,13:23,Jeans,Clothing,4284,Customer_4284,5,40,200,0,38,UPI,New York,18.17
+30-01-2025,21:50,T-shirt,Clothing,9846,Customer_9846,2,20,40,0,37,Debit Card,Houston,6.06
+19-01-2025,11:46,Soda,Beverage,4639,Customer_4639,2,2,4,0,39,Cash,Houston,0.36
+19-03-2025,21:56,Refrigerator,Appliances,6152,Customer_6152,5,900,4500,0,15,Wallet,New York,309.43
+03-01-2025,15:51,Soda,Beverage,8950,Customer_8950,4,2,8,0,35,Wallet,New York,1.17
+23-02-2025,16:40,Running Shoes,Footwear,8695,Customer_8695,3,60,180,0,35,Credit Card,New York,2.56
+05-01-2025,16:49,Headphones,Electronics,6022,Customer_6022,5,100,500,0,31,Credit Card,Houston,96.73
+15-03-2025,14:44,Smartphone,Electronics,1128,Customer_1128,4,500,2000,0,64,Credit Card,New York,77.48
+03-01-2025,16:40,T-shirt,Clothing,5956,Customer_5956,5,20,100,0,32,Cash,Miami,3.27
+18-03-2025,12:32,Chocolate,Food,7116,Customer_7116,2,5,10,0,36,Debit Card,New York,1.6
+09-01-2025,17:37,Microwave,Appliances,2696,Customer_2696,3,150,450,0,16,UPI,Miami,27.22
+18-03-2025,18:33,Microwave,Appliances,2547,Customer_2547,4,150,600,0,12,Debit Card,Houston,5.85
+09-03-2025,14:25,Headphones,Electronics,3947,Customer_3947,3,100,300,0,28,Wallet,Los Angeles,44.86
+09-01-2025,15:57,Headphones,Electronics,5848,Customer_5848,5,100,500,0,23,Credit Card,New York,77.97
+28-02-2025,21:08,T-shirt,Clothing,3978,Customer_3978,2,20,40,0,30,Cash,New York,2.21
+30-01-2025,17:29,Chocolate,Food,6072,Customer_6072,1,5,5,0,35,Credit Card,New York,0.39
+05-03-2025,18:06,Laptop,Electronics,4984,Customer_4984,4,750,3000,0,16,UPI,Los Angeles,297.03
+22-03-2025,15:30,Microwave,Appliances,4181,Customer_4181,4,150,600,0,8,UPI,Miami,69.7
+19-01-2025,15:51,Soda,Beverage,7832,Customer_7832,5,2,10,0,30,Credit Card,Houston,0.15
+17-03-2025,18:04,Jeans,Clothing,1915,Customer_1915,2,40,80,0,36,Debit Card,Los Angeles,13.82
+23-02-2025,12:22,T-shirt,Clothing,8741,Customer_8741,1,20,20,0,29,Wallet,New York,1.59
+03-02-2025,12:53,Refrigerator,Appliances,8907,Customer_8907,5,900,4500,0,10,Cash,New York,120.3
+17-02-2025,12:31,Headphones,Electronics,6596,Customer_6596,5,100,500,0,18,Wallet,Houston,29.66
+09-01-2025,11:55,Laptop,Electronics,2825,Customer_2825,4,750,3000,0,12,UPI,Miami,502.62
+14-01-2025,14:50,Laptop,Electronics,1113,Customer_1113,3,750,2250,0,9,Credit Card,Houston,3.53
+08-01-2025,15:07,Chocolate,Food,9970,Customer_9970,2,5,10,0,33,Wallet,Houston,1.96
+06-01-2025,19:56,T-shirt,Clothing,7510,Customer_7510,5,20,100,0,24,Debit Card,New York,7.06
+01-02-2025,20:25,Running Shoes,Footwear,1638,Customer_1638,2,60,120,0,33,UPI,Chicago,12.31
+05-01-2025,17:03,Jeans,Clothing,5627,Customer_5627,5,40,200,0,31,Credit Card,Houston,32.56
+01-02-2025,19:39,Smartphone,Electronics,3917,Customer_3917,5,500,2500,0,59,Credit Card,Miami,187.83
+09-01-2025,14:35,Soda,Beverage,2737,Customer_2737,4,2,8,0,26,Cash,Miami,1.58
+12-02-2025,10:46,Chocolate,Food,8911,Customer_8911,4,5,20,0,29,Debit Card,Chicago,1.9
+19-02-2025,14:27,Laptop,Electronics,4415,Customer_4415,4,750,3000,0,5,Debit Card,New York,236.79
+25-02-2025,12:54,Headphones,Electronics,7033,Customer_7033,2,100,200,0,16,UPI,Los Angeles,3.78
+01-02-2025,20:54,T-shirt,Clothing,4693,Customer_4693,2,20,40,0,22,UPI,New York,5.71
+09-01-2025,18:19,Refrigerator,Appliances,1019,Customer_1019,3,900,2700,0,7,Wallet,Miami,322.28
+26-02-2025,20:03,Microwave,Appliances,6335,Customer_6335,5,150,750,23,26,UPI,Houston,94.69
+19-02-2025,17:08,Chocolate,Food,2855,Customer_2855,4,5,20,0,25,Debit Card,Houston,1.11
+16-02-2025,12:28,Headphones,Electronics,3562,Customer_3562,1,100,100,0,15,Cash,Miami,7.34
+15-01-2025,11:28,Running Shoes,Footwear,6225,Customer_6225,3,60,180,0,30,Cash,Chicago,19.67
+17-01-2025,10:39,Headphones,Electronics,1796,Customer_1796,5,100,500,0,10,Credit Card,Los Angeles,62.83
+18-02-2025,13:17,Running Shoes,Footwear,3904,Customer_3904,3,60,180,0,27,Cash,Chicago,27.48
+23-03-2025,14:37,Headphones,Electronics,8158,Customer_8158,3,100,300,0,7,Wallet,Houston,2.33
+17-02-2025,18:56,Headphones,Electronics,7821,Customer_7821,3,100,300,32,36,Debit Card,Miami,44.03
+16-01-2025,21:54,T-shirt,Clothing,7216,Customer_7216,1,20,20,0,21,Credit Card,Chicago,1.32
+05-03-2025,17:20,Microwave,Appliances,8485,Customer_8485,3,150,450,0,23,Debit Card,Los Angeles,89.08
+01-01-2025,20:04,Soda,Beverage,5543,Customer_5543,2,2,4,0,24,Credit Card,New York,0.24
+26-02-2025,16:22,Microwave,Appliances,5859,Customer_5859,5,150,750,0,18,UPI,Chicago,16.5
+18-01-2025,21:53,Chocolate,Food,4594,Customer_4594,4,5,20,0,21,Cash,Chicago,2.75
+04-03-2025,13:57,Chocolate,Food,4536,Customer_4536,3,5,15,0,18,Debit Card,Miami,1.42
+08-02-2025,16:23,Smartphone,Electronics,6846,Customer_6846,1,500,500,0,58,Wallet,New York,66.96
+03-03-2025,20:24,Headphones,Electronics,9627,Customer_9627,3,100,300,0,33,Wallet,Los Angeles,2.34
+13-03-2025,19:39,Chocolate,Food,3658,Customer_3658,2,5,10,0,16,UPI,Los Angeles,0.77
+26-02-2025,11:39,Smartphone,Electronics,4432,Customer_4432,2,500,1000,0,56,Credit Card,Houston,18.15
+21-02-2025,10:49,Running Shoes,Footwear,8334,Customer_8334,2,60,120,0,25,Wallet,New York,3.84
+27-02-2025,14:26,Microwave,Appliances,4719,Customer_4719,2,150,300,0,16,Credit Card,Houston,7.3
+27-01-2025,12:52,Chocolate,Food,2096,Customer_2096,2,5,10,0,14,Wallet,Houston,0.76
+28-01-2025,12:50,Soda,Beverage,3553,Customer_3553,3,2,6,0,21,Debit Card,Los Angeles,0.27
+26-01-2025,14:09,Jeans,Clothing,3184,Customer_3184,2,40,80,0,29,UPI,Los Angeles,9.05
+11-02-2025,19:21,Laptop,Electronics,9271,Customer_9271,3,750,2250,29,31,Debit Card,Chicago,123.59
+16-03-2025,14:11,Jeans,Clothing,4340,Customer_4340,1,40,40,0,28,Credit Card,New York,0.34
+30-01-2025,14:36,Laptop,Electronics,8860,Customer_8860,4,750,3000,0,27,UPI,Miami,244.95
+02-01-2025,10:50,Smartphone,Electronics,4100,Customer_4100,3,500,1500,0,53,UPI,Miami,182.89
+22-03-2025,11:26,T-shirt,Clothing,4666,Customer_4666,5,20,100,0,16,Debit Card,New York,15.07
+14-02-2025,15:12,Microwave,Appliances,5111,Customer_5111,4,150,600,0,12,Debit Card,New York,23.37
+04-01-2025,14:06,Soda,Beverage,5184,Customer_5184,4,2,8,0,17,Debit Card,Chicago,0.45
+18-02-2025,15:28,T-shirt,Clothing,5123,Customer_5123,1,20,20,0,15,Cash,Miami,0.39
+18-03-2025,18:51,Running Shoes,Footwear,4743,Customer_4743,1,60,60,0,24,Debit Card,Chicago,7.64
+23-03-2025,12:05,Smartphone,Electronics,9875,Customer_9875,1,500,500,0,52,Cash,Houston,57.31
+16-02-2025,20:03,Refrigerator,Appliances,9129,Customer_9129,1,900,900,0,6,UPI,Los Angeles,62.66
+22-03-2025,20:42,Smartphone,Electronics,9020,Customer_9020,1,500,500,0,51,Credit Card,Chicago,54.35
+18-01-2025,13:13,Running Shoes,Footwear,4563,Customer_4563,2,60,120,0,22,Wallet,Chicago,1.76
+04-02-2025,15:00,Smartphone,Electronics,6503,Customer_6503,1,500,500,0,50,Cash,Miami,20.94
+17-01-2025,18:07,Chocolate,Food,1522,Customer_1522,4,5,20,0,10,UPI,Los Angeles,2.04
+11-03-2025,15:56,Refrigerator,Appliances,5096,Customer_5096,2,900,1800,37,41,Cash,Chicago,356.64
+10-02-2025,10:31,Microwave,Appliances,2633,Customer_2633,2,150,300,0,10,Debit Card,Los Angeles,29.19
+10-03-2025,14:12,Running Shoes,Footwear,9101,Customer_9101,1,60,60,0,21,Cash,New York,7.23
+17-01-2025,18:16,Running Shoes,Footwear,2084,Customer_2084,5,60,300,0,16,Debit Card,Los Angeles,9.15
+20-02-2025,19:54,Chocolate,Food,4918,Customer_4918,1,5,5,0,9,Debit Card,Chicago,0.66
+12-02-2025,11:20,Smartphone,Electronics,7642,Customer_7642,4,500,2000,0,46,Wallet,Chicago,82.5
+20-01-2025,19:43,Laptop,Electronics,9926,Customer_9926,2,750,1500,0,25,UPI,Chicago,223.03
+13-03-2025,13:41,Chocolate,Food,4199,Customer_4199,2,5,10,0,7,UPI,Houston,1.37
+29-01-2025,12:08,Chocolate,Food,5991,Customer_5991,2,5,10,0,5,Cash,Chicago,1.25
+23-03-2025,16:50,Laptop,Electronics,4954,Customer_4954,1,750,750,0,24,Credit Card,Chicago,78.19
+07-01-2025,12:31,Refrigerator,Appliances,6867,Customer_6867,2,900,1800,0,39,UPI,Miami,130.07
+22-02-2025,17:02,Headphones,Electronics,6410,Customer_6410,1,100,100,0,32,UPI,Miami,15.79
+23-01-2025,15:14,Jeans,Clothing,1275,Customer_1275,5,40,200,0,23,Cash,Houston,17.39
+16-01-2025,18:53,Headphones,Electronics,5444,Customer_5444,3,100,300,0,29,Credit Card,Los Angeles,18.68
+31-01-2025,13:47,Jeans,Clothing,8072,Customer_8072,3,40,120,0,20,Cash,Los Angeles,11.79
+19-03-2025,19:18,Microwave,Appliances,3195,Customer_3195,4,150,600,0,6,Wallet,Los Angeles,0.44
+17-02-2025,16:22,Running Shoes,Footwear,6189,Customer_6189,1,60,60,0,15,Debit Card,Houston,4.82
+14-02-2025,10:54,Jeans,Clothing,4852,Customer_4852,1,40,40,0,19,Wallet,Houston,0.12
+22-03-2025,11:55,Soda,Beverage,4354,Customer_4354,3,2,6,0,14,Wallet,Los Angeles,0.31
+21-01-2025,10:57,T-shirt,Clothing,2580,Customer_2580,1,20,20,0,14,Cash,Houston,1.75
+27-01-2025,12:03,Refrigerator,Appliances,8557,Customer_8557,4,900,3600,0,35,Cash,Los Angeles,561.71
+09-01-2025,11:57,Laptop,Electronics,5969,Customer_5969,2,750,1500,0,22,Debit Card,New York,125.39
+06-02-2025,14:02,Running Shoes,Footwear,1461,Customer_1461,2,60,120,0,13,Cash,Los Angeles,0.62
+15-01-2025,13:28,Headphones,Electronics,6244,Customer_6244,5,100,500,0,24,Cash,Houston,32.84
+14-01-2025,11:55,Soda,Beverage,2515,Customer_2515,1,2,2,0,13,Credit Card,New York,0.14
+07-02-2025,14:26,Chocolate,Food,8811,Customer_8811,4,5,20,28,29,Cash,Chicago,2.07
+26-01-2025,15:53,Jeans,Clothing,6693,Customer_6693,3,40,120,0,16,Debit Card,New York,15.42
+21-03-2025,17:35,Jeans,Clothing,6928,Customer_6928,4,40,160,0,12,Cash,Los Angeles,9.2
+17-03-2025,13:10,T-shirt,Clothing,8853,Customer_8853,5,20,100,0,9,UPI,Chicago,3.77
+28-02-2025,17:47,Jeans,Clothing,8443,Customer_8443,2,40,80,0,10,Wallet,Miami,10.87
+11-01-2025,19:44,Refrigerator,Appliances,8168,Customer_8168,1,900,900,0,34,Debit Card,Houston,175.4
+08-03-2025,18:30,Headphones,Electronics,7967,Customer_7967,5,100,500,0,19,Debit Card,Chicago,66.12
+20-03-2025,12:00,Jeans,Clothing,2672,Customer_2672,5,40,200,0,5,UPI,Chicago,11.69
+07-01-2025,16:57,Chocolate,Food,2964,Customer_2964,3,5,15,0,26,Debit Card,Los Angeles,1.58
+28-02-2025,21:53,Laptop,Electronics,1943,Customer_1943,4,750,3000,0,18,Credit Card,Miami,489.38
+13-03-2025,13:20,Microwave,Appliances,3440,Customer_3440,4,150,600,32,34,Wallet,Houston,63.96
+27-02-2025,21:10,Jeans,Clothing,4391,Customer_4391,4,40,160,23,24,Cash,Los Angeles,24.86
+01-01-2025,15:54,Refrigerator,Appliances,7735,Customer_7735,4,900,3600,0,30,Credit Card,Houston,113.58
+17-02-2025,10:53,Laptop,Electronics,9908,Customer_9908,5,750,3750,0,13,Credit Card,Chicago,570.5
+09-02-2025,17:36,Chocolate,Food,2911,Customer_2911,5,5,25,0,21,UPI,Chicago,3.18
+24-03-2025,19:43,Chocolate,Food,8380,Customer_8380,4,5,20,0,17,Debit Card,Houston,1.18
+16-03-2025,16:38,Chocolate,Food,5797,Customer_5797,2,5,10,0,15,Debit Card,New York,0.25
+14-02-2025,11:32,Headphones,Electronics,3329,Customer_3329,5,100,500,0,14,Cash,New York,26.32
+25-01-2025,11:43,Microwave,Appliances,4532,Customer_4532,4,150,600,0,30,Credit Card,New York,5.86
+03-01-2025,20:39,Smartphone,Electronics,7809,Customer_7809,2,500,1000,0,44,Credit Card,Houston,85.34
+17-01-2025,19:04,Running Shoes,Footwear,4053,Customer_4053,4,60,240,0,9,Cash,Los Angeles,26.3
+09-02-2025,12:40,T-shirt,Clothing,2450,Customer_2450,5,20,100,39,43,UPI,Chicago,2.18
+16-02-2025,10:19,T-shirt,Clothing,8667,Customer_8667,2,20,40,0,41,Credit Card,New York,6.43
+07-02-2025,17:57,Running Shoes,Footwear,6997,Customer_6997,5,60,300,13,17,UPI,Los Angeles,2.63
+15-02-2025,18:03,Smartphone,Electronics,8746,Customer_8746,5,500,2500,0,39,Debit Card,Chicago,323.8
+01-01-2025,11:22,Smartphone,Electronics,9610,Customer_9610,1,500,500,0,38,Wallet,New York,90.61
+24-02-2025,16:51,Jeans,Clothing,6765,Customer_6765,2,40,80,0,22,Credit Card,Houston,2.26
+04-03-2025,16:24,Laptop,Electronics,7857,Customer_7857,4,750,3000,0,9,Debit Card,Houston,391.68
+10-01-2025,10:47,Running Shoes,Footwear,9770,Customer_9770,1,60,60,0,16,Debit Card,Chicago,8.23
+08-02-2025,16:34,Soda,Beverage,9671,Customer_9671,4,2,8,0,9,UPI,Chicago,0.46
+27-01-2025,18:10,Laptop,Electronics,7933,Customer_7933,3,750,2250,0,6,Credit Card,Houston,289.57
+24-03-2025,21:57,Chocolate,Food,4997,Customer_4997,4,5,20,0,11,UPI,New York,0.47
+02-01-2025,17:26,Microwave,Appliances,1400,Customer_1400,5,150,750,0,25,Debit Card,Los Angeles,102.4
+06-02-2025,13:59,T-shirt,Clothing,9163,Customer_9163,3,20,60,0,38,Wallet,Houston,3.77
+09-02-2025,19:58,Running Shoes,Footwear,7699,Customer_7699,4,60,240,0,12,Credit Card,New York,31.02
+02-02-2025,19:53,Jeans,Clothing,7528,Customer_7528,2,40,80,0,20,UPI,Miami,4.13
+11-02-2025,15:12,Soda,Beverage,7211,Customer_7211,4,2,8,0,5,Debit Card,Houston,0.32
+10-02-2025,20:04,Chocolate,Food,5571,Customer_5571,5,5,25,0,6,Debit Card,New York,3.73
+14-02-2025,16:33,Soda,Beverage,5543,Customer_5543,3,2,6,14,16,UPI,Los Angeles,1.09
+06-02-2025,20:42,Headphones,Electronics,3891,Customer_3891,5,100,500,0,9,UPI,Houston,78.93
+08-01-2025,10:40,T-shirt,Clothing,4669,Customer_4669,5,20,100,0,33,Debit Card,New York,12.61
+08-03-2025,17:28,T-shirt,Clothing,1150,Customer_1150,5,20,100,0,28,Cash,Houston,0.8
+10-02-2025,19:33,Smartphone,Electronics,4218,Customer_4218,3,500,1500,0,35,Debit Card,Chicago,162.77
+13-02-2025,13:18,Chocolate,Food,5512,Customer_5512,3,5,15,20,23,Debit Card,Houston,0.21
+07-03-2025,14:07,Jeans,Clothing,9526,Customer_9526,5,40,200,0,15,Debit Card,Los Angeles,3.55
+05-02-2025,18:29,Soda,Beverage,8885,Customer_8885,3,2,6,0,13,Debit Card,Chicago,0.99
+08-03-2025,14:39,T-shirt,Clothing,3740,Customer_3740,3,20,60,0,25,UPI,New York,1.3
+27-02-2025,19:44,Soda,Beverage,4272,Customer_4272,5,2,10,0,8,UPI,New York,1.97
+23-03-2025,12:41,T-shirt,Clothing,3148,Customer_3148,2,20,40,0,23,UPI,Los Angeles,1.81
+10-01-2025,13:08,Smartphone,Electronics,7600,Customer_7600,5,500,2500,0,30,Wallet,Miami,64.81
+09-03-2025,14:58,Chocolate,Food,9300,Customer_9300,2,5,10,0,21,Debit Card,New York,1.06
+22-01-2025,17:51,Smartphone,Electronics,6767,Customer_6767,5,500,2500,0,25,Cash,Los Angeles,452.89
+24-02-2025,20:54,Jeans,Clothing,7254,Customer_7254,2,40,80,0,13,Wallet,Houston,2.69
+15-03-2025,20:37,Smartphone,Electronics,3937,Customer_3937,3,500,1500,0,22,Debit Card,Miami,208.32
+08-01-2025,10:41,Smartphone,Electronics,4153,Customer_4153,3,500,1500,0,19,Cash,New York,87.84
+04-03-2025,17:49,Headphones,Electronics,6775,Customer_6775,3,100,300,0,6,Debit Card,Houston,55.54
+11-01-2025,18:20,Laptop,Electronics,6265,Customer_6265,4,750,3000,15,17,UPI,New York,337.94
+06-01-2025,12:47,Jeans,Clothing,7851,Customer_7851,5,40,200,0,8,Wallet,Los Angeles,34.37
+08-01-2025,12:40,Microwave,Appliances,6113,Customer_6113,1,150,150,0,24,Cash,New York,6.47
+03-03-2025,21:37,Laptop,Electronics,3424,Customer_3424,2,750,1500,0,15,Debit Card,Los Angeles,297.51
+26-02-2025,18:53,Smartphone,Electronics,7224,Customer_7224,2,500,1000,0,17,Cash,New York,47.38
+19-03-2025,11:21,Jeans,Clothing,2950,Customer_2950,1,40,40,0,7,Debit Card,Houston,0.24
+14-03-2025,17:24,Laptop,Electronics,5426,Customer_5426,1,750,750,0,14,Wallet,Chicago,94.98
+30-01-2025,13:24,Smartphone,Electronics,5471,Customer_5471,5,500,2500,0,12,Debit Card,New York,45.27
+02-03-2025,16:58,T-shirt,Clothing,5990,Customer_5990,1,20,20,0,22,Cash,New York,0.82
+08-03-2025,19:43,Chocolate,Food,9821,Customer_9821,3,5,15,0,18,Debit Card,Houston,1.57
+11-03-2025,19:45,Running Shoes,Footwear,3910,Customer_3910,2,60,120,0,10,Cash,Los Angeles,10.32
+26-02-2025,15:01,Jeans,Clothing,1911,Customer_1911,3,40,120,47,51,Cash,Houston,8.99
+24-03-2025,20:15,Microwave,Appliances,6852,Customer_6852,2,150,300,0,22,Cash,Miami,4.48
+21-01-2025,16:35,Laptop,Electronics,2301,Customer_2301,2,750,1500,0,12,UPI,Houston,164.89
+22-03-2025,14:09,Soda,Beverage,9939,Customer_9939,3,2,6,0,5,Wallet,New York,0.61
+10-01-2025,18:23,Microwave,Appliances,3415,Customer_3415,3,150,450,0,19,Wallet,New York,89.18
+25-02-2025,14:40,Jeans,Clothing,1376,Customer_1376,5,40,200,0,46,UPI,Houston,29.72
+20-03-2025,19:54,Running Shoes,Footwear,3648,Customer_3648,3,60,180,0,7,Cash,Chicago,20.05
+13-03-2025,17:42,Microwave,Appliances,5026,Customer_5026,1,150,150,0,18,Cash,Houston,20.66
+17-01-2025,14:08,Chocolate,Food,8863,Customer_8863,3,5,15,0,15,Cash,New York,2.91
+19-02-2025,13:29,Soda,Beverage,3028,Customer_3028,4,2,8,31,32,Wallet,Houston,0.4
+16-03-2025,12:32,Soda,Beverage,6311,Customer_6311,3,2,6,0,29,UPI,New York,1.09
+22-02-2025,10:50,T-shirt,Clothing,6254,Customer_6254,1,20,20,0,21,Cash,New York,3.69
+21-02-2025,12:02,Headphones,Electronics,8907,Customer_8907,2,100,200,36,40,Cash,Chicago,25.4
+02-03-2025,10:54,Refrigerator,Appliances,8100,Customer_8100,1,900,900,0,29,Debit Card,Miami,46.38
+20-03-2025,17:08,Microwave,Appliances,8499,Customer_8499,2,150,300,0,16,Wallet,Los Angeles,39.67
+02-01-2025,16:47,Soda,Beverage,6102,Customer_6102,4,2,8,0,25,UPI,Houston,0.65
+08-01-2025,18:39,Soda,Beverage,4571,Customer_4571,2,2,4,0,23,Credit Card,New York,0.72
+24-03-2025,17:39,Jeans,Clothing,7708,Customer_7708,2,40,80,0,44,Debit Card,Los Angeles,1.43
+04-01-2025,15:19,Running Shoes,Footwear,8120,Customer_8120,5,60,300,35,37,UPI,Chicago,18.06
+23-02-2025,18:31,Soda,Beverage,9779,Customer_9779,5,2,10,0,18,Debit Card,Miami,0.37
+13-02-2025,14:07,Headphones,Electronics,8121,Customer_8121,2,100,200,0,38,Wallet,Los Angeles,34.14
+28-02-2025,11:00,Jeans,Clothing,5057,Customer_5057,4,40,160,0,40,Wallet,Chicago,10.03
+20-03-2025,18:15,Chocolate,Food,1481,Customer_1481,5,5,25,0,10,Credit Card,Houston,0.28
+03-01-2025,15:02,Soda,Beverage,4316,Customer_4316,4,2,8,0,14,Wallet,Houston,0.34
+10-02-2025,15:28,Microwave,Appliances,7383,Customer_7383,5,150,750,0,11,Cash,Chicago,59.25
+10-03-2025,11:26,Refrigerator,Appliances,3679,Customer_3679,1,900,900,0,28,Credit Card,Miami,178.37
+15-01-2025,21:02,Smartphone,Electronics,7850,Customer_7850,5,500,2500,0,7,Debit Card,Los Angeles,358.35
+01-01-2025,21:20,Laptop,Electronics,6290,Customer_6290,4,750,3000,0,8,Credit Card,Miami,426.83
+06-03-2025,16:04,Chocolate,Food,3416,Customer_3416,2,5,10,0,8,Debit Card,Los Angeles,0.76
+19-02-2025,21:44,Laptop,Electronics,4225,Customer_4225,3,750,2250,0,5,Credit Card,New York,52.73
+13-01-2025,11:25,Running Shoes,Footwear,2049,Customer_2049,4,60,240,0,33,Cash,Houston,33.6
+12-02-2025,20:46,Jeans,Clothing,2371,Customer_2371,4,40,160,0,36,Credit Card,New York,0.64
+16-01-2025,17:56,Refrigerator,Appliances,7580,Customer_7580,5,900,4500,0,23,Cash,New York,648.79
+22-01-2025,12:08,T-shirt,Clothing,4372,Customer_4372,4,20,80,0,17,Credit Card,Chicago,8.22
+14-03-2025,16:41,Headphones,Electronics,5371,Customer_5371,1,100,100,0,37,Cash,Chicago,13.22
+07-01-2025,15:27,Running Shoes,Footwear,7909,Customer_7909,2,60,120,0,31,Wallet,Miami,21.77
+03-02-2025,10:45,Smartphone,Electronics,8873,Customer_8873,4,500,2000,32,35,Wallet,Houston,164.63
+03-03-2025,11:54,Running Shoes,Footwear,8710,Customer_8710,1,60,60,0,30,Credit Card,Miami,2.42
+27-01-2025,14:42,Chocolate,Food,9816,Customer_9816,4,5,20,33,37,Wallet,Los Angeles,3.39
+23-01-2025,20:30,Microwave,Appliances,3955,Customer_3955,3,150,450,0,8,Cash,New York,72.91
+08-01-2025,20:53,T-shirt,Clothing,8767,Customer_8767,2,20,40,0,15,Credit Card,Los Angeles,6.44
+22-02-2025,12:13,Laptop,Electronics,7190,Customer_7190,4,750,3000,16,17,UPI,Miami,429.33
+18-01-2025,14:10,Microwave,Appliances,2858,Customer_2858,2,150,300,0,6,Debit Card,Los Angeles,53.76
+23-02-2025,13:56,Chocolate,Food,6604,Customer_6604,4,5,20,0,33,UPI,Los Angeles,1.2
+30-01-2025,20:52,Running Shoes,Footwear,2825,Customer_2825,4,60,240,0,26,Credit Card,Los Angeles,13.93
+05-01-2025,13:07,Laptop,Electronics,4048,Customer_4048,1,750,750,0,16,Cash,Los Angeles,15.67
+17-03-2025,14:32,Laptop,Electronics,7738,Customer_7738,1,750,750,0,15,Debit Card,Chicago,53.04
+24-02-2025,16:20,Microwave,Appliances,5372,Customer_5372,4,150,600,25,27,Wallet,Houston,4.33
+07-02-2025,14:00,T-shirt,Clothing,9955,Customer_9955,5,20,100,0,10,Wallet,Miami,6.66
+01-03-2025,11:48,Headphones,Electronics,7114,Customer_7114,3,100,300,0,34,Credit Card,Los Angeles,48.73
+14-03-2025,13:51,Jeans,Clothing,1326,Customer_1326,5,40,200,0,31,Cash,Chicago,10.72
+09-03-2025,15:36,Running Shoes,Footwear,8012,Customer_8012,1,60,60,0,25,UPI,Chicago,5.39
+08-03-2025,19:40,Refrigerator,Appliances,2949,Customer_2949,5,900,4500,0,18,Credit Card,New York,173.06
+19-03-2025,13:39,Soda,Beverage,6660,Customer_6660,2,2,4,0,12,Credit Card,Los Angeles,0.06
+02-03-2025,16:38,Smartphone,Electronics,3567,Customer_3567,1,500,500,0,34,UPI,New York,64.75
+27-02-2025,20:30,Soda,Beverage,1350,Customer_1350,5,2,10,0,7,Cash,Houston,0.3
+01-02-2025,18:15,Headphones,Electronics,1448,Customer_1448,5,100,500,0,29,Debit Card,Miami,85.29
+06-03-2025,10:06,Soda,Beverage,9732,Customer_9732,1,2,2,0,6,Cash,Miami,0.05
+14-02-2025,15:37,T-shirt,Clothing,8237,Customer_8237,4,20,80,0,6,Credit Card,Chicago,11.91
+17-01-2025,18:40,Soda,Beverage,5614,Customer_5614,4,2,8,18,20,Wallet,Chicago,1.37
+03-01-2025,13:40,T-shirt,Clothing,6640,Customer_6640,4,20,80,44,46,Wallet,Chicago,6.63
+04-02-2025,20:55,Refrigerator,Appliances,1840,Customer_1840,5,900,4500,0,13,Cash,Los Angeles,541.27
+03-03-2025,15:26,Smartphone,Electronics,6954,Customer_6954,1,500,500,0,33,Debit Card,Miami,22.84
+28-02-2025,17:30,T-shirt,Clothing,4592,Customer_4592,3,20,60,0,43,Cash,Houston,9.14
+26-01-2025,12:37,Soda,Beverage,3604,Customer_3604,1,2,2,0,19,Wallet,New York,0.23
+20-02-2025,21:55,Jeans,Clothing,8051,Customer_8051,4,40,160,0,27,Wallet,Chicago,10.79
+28-01-2025,20:42,Soda,Beverage,2929,Customer_2929,4,2,8,0,15,Wallet,New York,0.58
+12-01-2025,13:48,T-shirt,Clothing,1454,Customer_1454,5,20,100,0,38,UPI,Chicago,5.46
+10-03-2025,20:33,Microwave,Appliances,4278,Customer_4278,3,150,450,0,24,Credit Card,Houston,38.75
+17-02-2025,13:41,Microwave,Appliances,9893,Customer_9893,5,150,750,0,19,Debit Card,New York,46.36
+03-01-2025,10:08,Running Shoes,Footwear,3378,Customer_3378,2,60,120,0,23,UPI,Miami,23.07
+07-03-2025,14:43,Running Shoes,Footwear,3992,Customer_3992,2,60,120,0,21,UPI,Houston,17.13
+17-02-2025,10:36,Jeans,Clothing,2466,Customer_2466,3,40,120,0,24,Cash,Houston,9.14
+07-02-2025,18:42,Chocolate,Food,4771,Customer_4771,4,5,20,0,29,Cash,Houston,2.64
+19-03-2025,17:18,Running Shoes,Footwear,3045,Customer_3045,4,60,240,0,17,Cash,Houston,8.45
+15-01-2025,19:22,Headphones,Electronics,5732,Customer_5732,1,100,100,0,28,UPI,Los Angeles,7.11
+26-01-2025,10:43,Jeans,Clothing,8051,Customer_8051,3,40,120,0,21,Debit Card,Miami,3.69
+10-03-2025,18:08,Headphones,Electronics,6734,Customer_6734,5,100,500,0,23,UPI,Houston,43.82
+13-02-2025,15:10,Laptop,Electronics,7429,Customer_7429,3,750,2250,0,12,Credit Card,New York,25.43
+24-02-2025,14:06,Jeans,Clothing,5917,Customer_5917,3,40,120,0,18,Wallet,Houston,1.37
+16-03-2025,10:43,T-shirt,Clothing,4225,Customer_4225,4,20,80,0,34,Wallet,Chicago,0.48
+22-03-2025,21:34,Laptop,Electronics,8800,Customer_8800,3,750,2250,0,9,Cash,Miami,177.35
+06-02-2025,14:19,Headphones,Electronics,4366,Customer_4366,3,100,300,0,20,Cash,Los Angeles,58.26
+02-01-2025,10:38,Laptop,Electronics,5967,Customer_5967,3,750,2250,0,6,Cash,Houston,223.04
+06-02-2025,19:33,T-shirt,Clothing,3045,Customer_3045,5,20,100,0,29,Debit Card,New York,16.31
+10-01-2025,21:29,Smartphone,Electronics,1030,Customer_1030,5,500,2500,0,28,Credit Card,Miami,248.24
+10-01-2025,20:59,Running Shoes,Footwear,4490,Customer_4490,4,60,240,0,13,Debit Card,Miami,42.4
+05-03-2025,16:59,Running Shoes,Footwear,2547,Customer_2547,4,60,240,0,9,Wallet,Chicago,2.79
+16-01-2025,16:28,T-shirt,Clothing,3963,Customer_3963,5,20,100,0,24,UPI,Houston,1
+03-03-2025,10:16,Smartphone,Electronics,8673,Customer_8673,4,500,2000,0,24,Cash,New York,124.77
+09-02-2025,10:21,Chocolate,Food,4110,Customer_4110,4,5,20,0,25,UPI,Chicago,3.8
+16-01-2025,13:29,T-shirt,Clothing,1417,Customer_1417,3,20,60,0,21,UPI,Chicago,11.62
+07-03-2025,20:23,Laptop,Electronics,7797,Customer_7797,2,750,1500,43,47,Credit Card,New York,252.6
+21-01-2025,10:00,Headphones,Electronics,6011,Customer_6011,4,100,400,0,16,Credit Card,New York,79.21
+07-03-2025,20:51,T-shirt,Clothing,8037,Customer_8037,1,20,20,0,20,Cash,Los Angeles,3.37
+14-01-2025,19:16,Headphones,Electronics,8068,Customer_8068,3,100,300,0,13,UPI,Miami,17.83
+28-01-2025,17:53,Headphones,Electronics,1395,Customer_1395,1,100,100,0,12,Wallet,Chicago,10.26
+12-03-2025,16:16,Microwave,Appliances,2225,Customer_2225,1,150,150,0,18,Cash,Houston,19.07
+16-01-2025,21:46,Smartphone,Electronics,8160,Customer_8160,4,500,2000,0,20,Debit Card,Chicago,64.62
+08-02-2025,19:35,Laptop,Electronics,9422,Customer_9422,1,750,750,0,46,Debit Card,Houston,16.69
+06-02-2025,21:46,Soda,Beverage,4102,Customer_4102,4,2,8,0,11,Debit Card,New York,0.89
+22-03-2025,14:09,Running Shoes,Footwear,9307,Customer_9307,4,60,240,0,5,Wallet,Houston,23.8
+19-03-2025,13:23,Refrigerator,Appliances,9671,Customer_9671,5,900,4500,0,8,Wallet,Los Angeles,132.4
+09-02-2025,11:44,Refrigerator,Appliances,1634,Customer_1634,5,900,4500,26,29,Wallet,Houston,891.03
+27-02-2025,18:32,Soda,Beverage,9609,Customer_9609,5,2,10,0,6,Debit Card,Los Angeles,0.1
+03-01-2025,21:29,Soda,Beverage,3950,Customer_3950,1,2,2,0,5,Wallet,Houston,0.2
+16-03-2025,14:52,T-shirt,Clothing,9676,Customer_9676,3,20,60,0,17,Cash,New York,7.87
+26-02-2025,14:23,Jeans,Clothing,2795,Customer_2795,5,40,200,0,13,Cash,Los Angeles,33.78
+14-01-2025,10:57,T-shirt,Clothing,4686,Customer_4686,3,20,60,0,14,Cash,Miami,1.36
+06-02-2025,17:55,Laptop,Electronics,4210,Customer_4210,2,750,1500,0,44,Debit Card,Los Angeles,208.25
+18-01-2025,10:24,T-shirt,Clothing,9547,Customer_9547,1,20,20,0,13,Debit Card,Houston,0.51
+10-01-2025,15:37,Smartphone,Electronics,3583,Customer_3583,5,500,2500,0,15,Credit Card,Chicago,384.79
+07-01-2025,10:00,Running Shoes,Footwear,5791,Customer_5791,1,60,60,30,34,Debit Card,Houston,1.51
+09-03-2025,21:48,Running Shoes,Footwear,3181,Customer_3181,3,60,180,0,31,Debit Card,Houston,30.44
+03-03-2025,11:37,Smartphone,Electronics,9838,Customer_9838,2,500,1000,0,13,Credit Card,Miami,137.12
+07-03-2025,20:06,T-shirt,Clothing,8423,Customer_8423,5,20,100,0,8,Credit Card,Houston,11.35
+17-03-2025,18:36,Microwave,Appliances,5293,Customer_5293,1,150,150,0,17,Cash,Chicago,17.4
+22-03-2025,15:16,T-shirt,Clothing,1166,Customer_1166,3,20,60,0,5,Cash,Los Angeles,8.52
+11-02-2025,18:33,Laptop,Electronics,8386,Customer_8386,5,750,3750,0,39,UPI,Chicago,110.78
+07-03-2025,21:24,T-shirt,Clothing,2121,Customer_2121,5,20,100,33,33,Debit Card,Los Angeles,0.21
+24-03-2025,15:44,Laptop,Electronics,9029,Customer_9029,2,750,1500,0,37,Credit Card,Los Angeles,188.86
+09-01-2025,21:52,Headphones,Electronics,2482,Customer_2482,1,100,100,0,11,Wallet,New York,19.05
+18-01-2025,18:05,Refrigerator,Appliances,2031,Customer_2031,1,900,900,0,28,Wallet,Chicago,104.38
+06-03-2025,14:25,Refrigerator,Appliances,4639,Customer_4639,5,900,4500,0,23,Debit Card,Miami,285.63
+22-01-2025,11:23,Laptop,Electronics,4698,Customer_4698,1,750,750,0,36,Credit Card,Chicago,132.07
+20-01-2025,11:52,Headphones,Electronics,9348,Customer_9348,3,100,300,0,8,UPI,Miami,12.84
+16-01-2025,15:47,Soda,Beverage,7451,Customer_7451,4,2,8,29,30,Wallet,New York,1.14
+25-02-2025,13:20,T-shirt,Clothing,9260,Customer_9260,3,20,60,0,30,Debit Card,Chicago,3.93
+01-01-2025,19:08,Smartphone,Electronics,9773,Customer_9773,5,500,2500,0,8,Credit Card,Los Angeles,42.85
+15-01-2025,21:15,Soda,Beverage,5205,Customer_5205,3,2,6,0,27,Debit Card,Chicago,1.06
+23-03-2025,13:55,Headphones,Electronics,5494,Customer_5494,5,100,500,28,31,Debit Card,Houston,9.67
+04-01-2025,11:58,Refrigerator,Appliances,6705,Customer_6705,5,900,4500,0,18,Wallet,New York,743.84
+19-03-2025,21:12,Jeans,Clothing,8557,Customer_8557,3,40,120,0,10,Credit Card,New York,6.18
+21-02-2025,15:33,Running Shoes,Footwear,7989,Customer_7989,2,60,120,0,29,Debit Card,New York,18.67
+12-03-2025,14:03,Smartphone,Electronics,7618,Customer_7618,2,500,1000,0,6,Debit Card,New York,188.49
+02-01-2025,20:31,Running Shoes,Footwear,7278,Customer_7278,2,60,120,0,27,Credit Card,Miami,7.12
+10-03-2025,15:33,Smartphone,Electronics,7202,Customer_7202,2,500,1000,43,47,Debit Card,Los Angeles,80.92
+21-01-2025,19:38,Laptop,Electronics,6302,Customer_6302,1,750,750,0,35,Wallet,Chicago,4.69
+06-01-2025,17:38,Microwave,Appliances,4758,Customer_4758,1,150,150,0,16,Cash,Houston,28.45
+18-01-2025,10:17,T-shirt,Clothing,8397,Customer_8397,5,20,100,0,25,Cash,Chicago,6.94
+22-01-2025,21:29,T-shirt,Clothing,5656,Customer_5656,1,20,20,0,24,UPI,Los Angeles,2.12
+08-01-2025,14:25,Refrigerator,Appliances,3167,Customer_3167,3,900,2700,0,15,Cash,Miami,166.76
+04-03-2025,10:03,Smartphone,Electronics,9507,Customer_9507,1,500,500,0,46,UPI,Chicago,77.99
+18-03-2025,19:59,Smartphone,Electronics,3878,Customer_3878,4,500,2000,0,42,Credit Card,Los Angeles,387.21
+02-03-2025,12:02,Soda,Beverage,1629,Customer_1629,4,2,8,0,23,Debit Card,Chicago,0.47
+20-01-2025,15:11,T-shirt,Clothing,4015,Customer_4015,1,20,20,0,23,Wallet,Chicago,0.52
+14-02-2025,15:17,Jeans,Clothing,7583,Customer_7583,4,40,160,0,6,Cash,Miami,3.07
+21-01-2025,11:01,Smartphone,Electronics,7188,Customer_7188,5,500,2500,0,37,Cash,Chicago,237.82
+07-03-2025,10:15,Microwave,Appliances,2420,Customer_2420,4,150,600,0,12,Credit Card,New York,3.08
+22-02-2025,20:37,Laptop,Electronics,2499,Customer_2499,3,750,2250,0,32,Debit Card,Los Angeles,358.36
+10-02-2025,18:08,Jeans,Clothing,5306,Customer_5306,2,40,80,13,17,Cash,New York,1.25
+28-02-2025,13:51,Soda,Beverage,7824,Customer_7824,3,2,6,0,20,Debit Card,Los Angeles,0.66
+05-02-2025,11:52,Laptop,Electronics,4939,Customer_4939,1,750,750,0,31,Credit Card,New York,70.86
+23-02-2025,15:07,Soda,Beverage,6181,Customer_6181,5,2,10,0,15,UPI,New York,1.95
+04-03-2025,16:22,Chocolate,Food,9359,Customer_9359,5,5,25,0,20,Debit Card,Miami,2.49
+25-02-2025,19:56,Smartphone,Electronics,4885,Customer_4885,5,500,2500,0,32,Debit Card,New York,148.47
+02-03-2025,17:31,Microwave,Appliances,6320,Customer_6320,5,150,750,0,7,UPI,Los Angeles,46.85
+21-01-2025,18:53,Smartphone,Electronics,4859,Customer_4859,2,500,1000,0,30,UPI,New York,79.41
+22-02-2025,19:13,Smartphone,Electronics,8070,Customer_8070,2,500,1000,0,28,Wallet,New York,26.06
+14-03-2025,10:43,Soda,Beverage,7798,Customer_7798,4,2,8,0,11,Cash,Los Angeles,0.46
+25-01-2025,15:20,Running Shoes,Footwear,6155,Customer_6155,3,60,180,0,24,UPI,New York,7.95
+09-03-2025,11:26,Refrigerator,Appliances,8832,Customer_8832,3,900,2700,0,12,Credit Card,Chicago,539.53
+05-01-2025,10:23,Smartphone,Electronics,5882,Customer_5882,3,500,1500,0,25,Wallet,Houston,89.06
+11-02-2025,14:26,Chocolate,Food,3383,Customer_3383,1,5,5,0,19,Debit Card,Chicago,0.81
+09-02-2025,11:08,Laptop,Electronics,3134,Customer_3134,3,750,2250,0,28,Wallet,Chicago,370.9
+13-02-2025,11:28,Refrigerator,Appliances,2943,Customer_2943,1,900,900,0,11,Debit Card,Los Angeles,46.72
+29-01-2025,13:52,Chocolate,Food,4787,Customer_4787,5,5,25,0,14,Debit Card,Los Angeles,4.68
+13-02-2025,18:48,Chocolate,Food,4677,Customer_4677,3,5,15,0,11,Cash,New York,1.76
+01-03-2025,19:12,Microwave,Appliances,8432,Customer_8432,5,150,750,31,33,Credit Card,Chicago,69.34
+26-01-2025,10:46,Refrigerator,Appliances,4732,Customer_4732,4,900,3600,0,7,Debit Card,New York,524.86
+17-02-2025,16:44,Jeans,Clothing,3834,Customer_3834,5,40,200,0,12,Cash,Houston,21.69
+12-03-2025,12:20,Refrigerator,Appliances,3618,Customer_3618,4,900,3600,29,32,Wallet,Houston,251.3
+16-01-2025,21:21,Refrigerator,Appliances,2472,Customer_2472,3,900,2700,0,29,Credit Card,New York,167.32
+09-03-2025,13:55,Smartphone,Electronics,7531,Customer_7531,4,500,2000,0,21,UPI,Los Angeles,179.48
+20-02-2025,16:42,Microwave,Appliances,3124,Customer_3124,2,150,300,0,31,UPI,New York,16.38
+10-02-2025,20:46,Jeans,Clothing,5306,Customer_5306,1,40,40,0,11,Cash,Houston,3.99
+21-02-2025,20:26,Chocolate,Food,3294,Customer_3294,2,5,10,0,9,UPI,Los Angeles,0.44
+26-02-2025,17:33,Refrigerator,Appliances,2664,Customer_2664,4,900,3600,0,25,Credit Card,New York,207.97
+04-02-2025,10:49,Laptop,Electronics,7452,Customer_7452,2,750,1500,0,26,Debit Card,Chicago,84.75
+15-02-2025,21:02,Refrigerator,Appliances,8056,Customer_8056,5,900,4500,0,20,Credit Card,Houston,371.4
+05-02-2025,10:01,Headphones,Electronics,8444,Customer_8444,3,100,300,0,28,Wallet,Los Angeles,0.15
+19-02-2025,21:19,Soda,Beverage,3089,Customer_3089,3,2,6,0,8,Debit Card,Chicago,0.94
+12-02-2025,10:34,T-shirt,Clothing,8675,Customer_8675,5,20,100,0,18,Cash,Los Angeles,4.55
+26-02-2025,16:29,Chocolate,Food,9615,Customer_9615,2,5,10,0,7,Cash,New York,0.41
+04-03-2025,13:08,Soda,Beverage,6883,Customer_6883,3,2,6,0,5,UPI,New York,0.46
+23-03-2025,21:23,Chocolate,Food,3079,Customer_3079,4,5,20,44,47,Wallet,Miami,3.67
+12-01-2025,20:04,Microwave,Appliances,3618,Customer_3618,2,150,300,0,29,Cash,Houston,49.45
+04-02-2025,12:37,Running Shoes,Footwear,3447,Customer_3447,3,60,180,0,21,Wallet,New York,33.38
+17-02-2025,11:52,Headphones,Electronics,4102,Customer_4102,1,100,100,0,27,Cash,Miami,19.28
+26-02-2025,13:37,Running Shoes,Footwear,1295,Customer_1295,2,60,120,0,19,Debit Card,Los Angeles,18.08
+15-03-2025,18:44,Laptop,Electronics,5663,Customer_5663,2,750,1500,0,24,Debit Card,Chicago,83.7
+01-03-2025,12:46,T-shirt,Clothing,6200,Customer_6200,4,20,80,0,14,Debit Card,Los Angeles,9.9
+24-01-2025,11:56,Laptop,Electronics,5590,Customer_5590,3,750,2250,0,21,Credit Card,Los Angeles,77.76
+16-02-2025,11:55,Smartphone,Electronics,9560,Customer_9560,5,500,2500,0,16,Credit Card,Houston,187.26
+08-01-2025,10:12,T-shirt,Clothing,2113,Customer_2113,1,20,20,0,13,Cash,Los Angeles,1.99
+11-03-2025,20:17,Chocolate,Food,8672,Customer_8672,3,5,15,0,44,Debit Card,New York,2.86
+11-01-2025,21:38,Soda,Beverage,5438,Customer_5438,4,2,8,39,40,Wallet,Houston,0.86
+23-03-2025,11:43,Chocolate,Food,4890,Customer_4890,3,5,15,0,41,Cash,Chicago,1.81
+17-01-2025,18:20,Running Shoes,Footwear,3890,Customer_3890,2,60,120,0,17,Cash,Los Angeles,22.06
+09-02-2025,21:49,Microwave,Appliances,9646,Customer_9646,5,150,750,0,24,Credit Card,Houston,93.26
+15-02-2025,19:37,Soda,Beverage,7695,Customer_7695,1,2,2,0,39,Cash,Houston,0.3
+21-01-2025,20:30,Refrigerator,Appliances,8205,Customer_8205,1,900,900,0,19,Debit Card,Los Angeles,114.47
+04-03-2025,10:12,Jeans,Clothing,7586,Customer_7586,1,40,40,0,10,Credit Card,Los Angeles,7
+27-01-2025,18:30,Refrigerator,Appliances,2166,Customer_2166,4,900,3600,0,15,Cash,Miami,656.91
+17-03-2025,12:34,Headphones,Electronics,8401,Customer_8401,4,100,400,0,23,Wallet,Los Angeles,52.97
+03-03-2025,19:51,Running Shoes,Footwear,1238,Customer_1238,5,60,300,0,12,Debit Card,Chicago,2.51
+03-02-2025,18:24,Jeans,Clothing,5006,Customer_5006,3,40,120,0,7,Debit Card,New York,9.92
+12-02-2025,15:25,Soda,Beverage,9238,Customer_9238,2,2,4,0,37,UPI,Los Angeles,0.76
+09-02-2025,17:03,T-shirt,Clothing,7419,Customer_7419,2,20,40,0,11,UPI,Miami,5.08
+26-02-2025,13:53,Soda,Beverage,5910,Customer_5910,1,2,2,0,36,Wallet,Los Angeles,0.08
+05-01-2025,15:18,T-shirt,Clothing,4988,Customer_4988,4,20,80,0,7,Credit Card,Chicago,1.22
+18-02-2025,19:38,Headphones,Electronics,2013,Customer_2013,4,100,400,0,19,Credit Card,Chicago,11.69
+20-01-2025,20:22,Running Shoes,Footwear,6299,Customer_6299,3,60,180,0,9,UPI,Chicago,6.86
+01-01-2025,14:59,Running Shoes,Footwear,1018,Customer_1018,3,60,180,0,6,UPI,Los Angeles,8.95
+20-01-2025,21:00,Laptop,Electronics,9756,Customer_9756,1,750,750,0,20,Debit Card,Los Angeles,22.4
+05-02-2025,16:58,Soda,Beverage,2695,Customer_2695,4,2,8,0,32,Wallet,Los Angeles,0.97
+04-03-2025,18:46,T-shirt,Clothing,6391,Customer_6391,3,20,60,13,17,Credit Card,Los Angeles,10.75
+15-01-2025,12:02,Jeans,Clothing,1452,Customer_1452,3,40,120,21,25,Cash,Chicago,16.9
+25-01-2025,10:40,Jeans,Clothing,9358,Customer_9358,3,40,120,0,22,UPI,New York,4.71
+24-02-2025,19:46,T-shirt,Clothing,1273,Customer_1273,4,20,80,0,13,UPI,New York,0.77
+01-01-2025,19:15,Soda,Beverage,5418,Customer_5418,2,2,4,0,30,UPI,Chicago,0.36
+16-03-2025,20:20,T-shirt,Clothing,6150,Customer_6150,5,20,100,0,8,Debit Card,Miami,11.1
+13-03-2025,16:41,Chocolate,Food,7806,Customer_7806,3,5,15,0,38,Wallet,New York,0.23
+20-01-2025,16:31,Laptop,Electronics,6549,Customer_6549,2,750,1500,0,18,Debit Card,New York,194.41
+16-02-2025,19:05,Headphones,Electronics,5772,Customer_5772,2,100,200,0,17,UPI,Chicago,30.19
+13-01-2025,13:16,Refrigerator,Appliances,6351,Customer_6351,4,900,3600,0,11,Credit Card,New York,196.28
+22-03-2025,11:11,Running Shoes,Footwear,4199,Customer_4199,4,60,240,33,35,Cash,New York,1.56
+24-01-2025,12:42,Soda,Beverage,6712,Customer_6712,5,2,10,0,25,UPI,Los Angeles,1.22
+24-03-2025,21:13,Soda,Beverage,5742,Customer_5742,4,2,8,0,21,UPI,Los Angeles,0.32
+14-03-2025,21:00,T-shirt,Clothing,2625,Customer_2625,5,20,100,20,23,Debit Card,New York,19.17
+19-03-2025,15:45,Smartphone,Electronics,5018,Customer_5018,1,500,500,0,15,UPI,Chicago,78.2
+10-03-2025,13:08,T-shirt,Clothing,2284,Customer_2284,4,20,80,0,19,UPI,New York,14.51
+10-03-2025,10:46,Refrigerator,Appliances,5066,Customer_5066,2,900,1800,0,9,Debit Card,Houston,57.19
+21-01-2025,18:41,Jeans,Clothing,1709,Customer_1709,2,40,80,0,20,Credit Card,Los Angeles,9.49
+23-02-2025,21:36,Refrigerator,Appliances,3465,Customer_3465,1,900,900,0,8,Debit Card,New York,118.24
+10-03-2025,20:16,T-shirt,Clothing,9547,Customer_9547,3,20,60,0,16,Wallet,New York,11.8
+01-03-2025,10:17,Laptop,Electronics,7096,Customer_7096,4,750,3000,0,14,Cash,Chicago,503.76
+04-01-2025,13:34,Microwave,Appliances,1109,Customer_1109,2,150,300,0,22,Wallet,Houston,7.3
+10-02-2025,10:41,Smartphone,Electronics,2341,Customer_2341,4,500,2000,0,11,Credit Card,New York,267.01
+14-02-2025,14:38,Smartphone,Electronics,9965,Customer_9965,3,500,1500,0,8,Cash,Chicago,151.15
+17-03-2025,13:37,Refrigerator,Appliances,4678,Customer_4678,1,900,900,0,7,Debit Card,Houston,17.81
+12-01-2025,15:33,Microwave,Appliances,9211,Customer_9211,3,150,450,0,19,Debit Card,Miami,86.61
+14-02-2025,20:04,T-shirt,Clothing,2731,Customer_2731,1,20,20,0,15,Wallet,Houston,3.92
+02-01-2025,16:15,Running Shoes,Footwear,2250,Customer_2250,2,60,120,0,33,Debit Card,New York,1.87
+03-03-2025,20:38,Chocolate,Food,9389,Customer_9389,5,5,25,0,33,Debit Card,Chicago,4.61
+15-03-2025,15:10,T-shirt,Clothing,4234,Customer_4234,2,20,40,0,13,Wallet,New York,7.64
+23-01-2025,21:01,Soda,Beverage,2615,Customer_2615,2,2,4,0,19,UPI,Los Angeles,0.26
+19-01-2025,12:11,Soda,Beverage,6930,Customer_6930,4,2,8,0,15,Credit Card,Los Angeles,1.59
+01-01-2025,21:50,Running Shoes,Footwear,7664,Customer_7664,4,60,240,0,29,Cash,Houston,36.21
